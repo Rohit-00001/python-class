@@ -1,0 +1,105 @@
+<!-- Tables: it is collection of rows and columns used to store in tabular format -->
+
+<!-- <table border="1">
+    <tr>
+        <td>hello Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, fugiat!</td>
+        <td>hello2</td>
+         
+    </tr>
+    <tr>
+        <td>hello11</td>
+        <td>hello22</td>
+         
+    </tr>
+    <tr>
+        <td>hello11</td>
+        <td>hello22</td>
+        <td>hello3</td>
+         
+    </tr>
+     
+ </table> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tables</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Job</th>
+        <th>Working Experience</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Software Engineer</td>
+        <td>5 Years</td>
+      </tr>
+      <tr>
+        <td>Alex</td>
+        <td>Senior Web developer</td>
+        <td>2 Year</td>
+      </tr>
+      <tr>
+        <td>Jack</td>
+        <td>Junior Tech Writer</td>
+        <td>6 Months</td>
+      </tr>
+    </table>
+
+    <!-- rowspan: it is used to merge two or more rows in a table -->
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Job</th>
+        <th>Working Experience</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td rowspan="2">Software Engineer</td>
+        <td>5 Years</td>
+      </tr>
+      <tr>
+        <td>Alex</td>
+        <!-- <td>Software Engineer</td> -->
+        <td>2 Year</td>
+      </tr>
+      <tr>
+        <td>Jack</td>
+        <td>Junior Tech Writer</td>
+        <td>6 Months</td>
+      </tr>
+    </table>
+
+    <!-- colspan: it is used to merge two or more columns in a table -->
+    <hr />
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Job</th>
+        <th>part time</th>
+        <th>Working Experience</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Software Engineer</td>
+        <td>data analyst</td>
+        <td>5 Years</td>
+      </tr>
+      <tr>
+        <td>Alex</td>
+        <td>Senior Web developer</td>
+        <td>data analyst</td>
+        <td>2 Year</td>
+      </tr>
+      <tr>
+        <td>Jack</td>
+        <td colspan="2">Junior Tech Writer</td>
+        <!-- <td>Junior Tech Writer</td> -->
+        <td>6 Months</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+* {
+  font-size: xx-large;
+  font-style: italic;
+}
+
+h1 {
+  background-color: papayawhip;
+  color: blue;
+}
+
+.one {
+  background-color: gray;
+}
+
+#twoid {
+  background-color: royalblue;
+}
+
+h2,
+p {
+  color: red;
+}
