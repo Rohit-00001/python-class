@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      .calculator {
+        /* background-color: black; */
+        padding: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+        border: solid 1px #ccc;
+        border-radius: 10px;
+        margin-top: 40px;
+      }
+
+      #result {
+        background-color: yellowgreen;
+        width: 100%;
+        padding: 10px;
+        font-size: 30px;
+        border: none;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        border-radius: 15px;
+      }
+
+      .buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        margin-top: 20px;
+      }
+
+      button {
+        padding: 10px;
+        font-size: 30px;
+        border: none;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      button:hover {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="result" />
+      <div class="buttons">
+        <button
+          onclick="
+            val = ''
+        document.querySelector('#result').value = val
+        "
+        >
+          C
+        </button>
+        <button
+          onclick="
+            val = val + '/'
+        document.querySelector('#result').value =val
+        "
+        >
+          /
+        </button>
+        <button
+          onclick="
+            val = val + '*'
+        document.querySelector('#result').value =val
+        "
+        >
+          *
+        </button>
+        <button
+          onclick="
+  val = val + '-'
+        document.querySelector('#result').value = val
+        "
+        >
+          -
+        </button>
+        <button
+          onclick="
+            val = val + 7
+        document.querySelector('#result').value = val
+        "
+        >
+          7
+        </button>
+        <button
+          onclick="
+            val = val + 8
+        document.querySelector('#result').value =val
+        "
+        >
+          8
+        </button>
+        <button
+          onclick="
+            val = val + 9
+        document.querySelector('#result').value =val
+        "
+        >
+          9
+        </button>
+        <button
+          onclick="
+            val = val + '+'
+          
+        document.querySelector('#result').value =val
+        "
+        >
+          +
+        </button>
+        <button
+          onclick="
+            val = val + 4
+          
+        document.querySelector('#result').value =val
+        "
+        >
+          4
+        </button>
+        <button
+          onclick="
+            val = val + 5
+          
+        document.querySelector('#result').value = val
+        "
+        >
+          5
+        </button>
+        <button
+          onclick="
+            val = val + 6
+        document.querySelector('#result').value =val
+        "
+        >
+          6
+        </button>
+        <button
+          onclick="
+            val = val + '.'
+        document.querySelector('#result').value = val
+        "
+        >
+          .
+        </button>
+        <button
+          onclick="
+            val = val + 1
+        document.querySelector('#result').value =val
+        "
+        >
+          1
+        </button>
+        <button
+          onclick="
+            val = val + 2
+        document.querySelector('#result').value = val
+        "
+        >
+          2
+        </button>
+        <button
+          onclick="
+
+            val = val + 3
+        document.querySelector('#result').value = val
+        "
+        >
+          3
+        </button>
+        <button
+          onclick="
+           val = eval(val)
+        document.querySelector('#result').value = val
+        "
+        >
+          =
+        </button>
+        <button
+          onclick="
+        val = val + 0
+        document.querySelector('#result').value = val
+        "
+        >
+          0
+        </button>
+      </div>
+    </div>
+    <script>
+      let val = "";
+      document.querySelector("#result").value = val;
+    </script>
+  </body>
+</html>

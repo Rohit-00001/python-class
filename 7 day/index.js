@@ -70,3 +70,11 @@
 // let output = 10 < 20 ? "cuttack" : "bhubaneswar"; // if 10 is greater than 20, then return yes, else return no
 
 // console.log(output);
+
+. Write a program to perform arithmetic operation.(+,-,\*,/,%)
+
+. Write a program to display the area of a triangle.
+
+. Write a program to display area of a square.
+
+. Write a program to display area of a circle.

@@ -21,7 +21,8 @@ assignment operator (assign some values to the variables) (=, +=, -=, \*=, %=, \
 comparison operator (compair the values) it gives the result of true or false. equal to -> == not equal to -> != equal to & type -> === not equal to & type -> !== , >,< , <=, >=
 
 logical operator checks the logic of the operator(true/false)
-logical AND (&&) -> table of logical AND operator is -> cond1 cond2 res(&&) T T T
+logical AND (&&) -> table of logical AND operator is -> cond1 cond2 res(&&)
+T T T
 T F F
 F T F
 F F F
