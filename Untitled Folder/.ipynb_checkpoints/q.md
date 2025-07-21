@@ -1,45 +1,47 @@
-1. Write a program to display remarks of a student if marks >= 60
+ Q. Wapp to find sum of the digits of any entered number.
+        input 897
 
-2. Write a program to display the eligibility of a candidate in NCC if his/her height >= 160 and also weight>=65.then only eligibility possible. (Use of logical operator)
+        output 8+9+7 24
 
-3. Write a program to check whether a no. is odd or even.
+Q. Find the sum of even numbers from 1 to entered number using while loop.
 
-4. Write a program to display the smallest no among two.
+Q. Take input of start and end range from user and print the average value of the given range.
 
-5. Write a program to display the greatest no among two.
+Q. Wapp to find the factorial of an entered number using while loop.
+Q. Wapp to find product of the digits of any entered number.
 
-6. Write a program to check the no if it is greater than 90 then add two & display the result otherwise add five & display the result.
+        input 897
 
-Central Tool Room & Training Center, Bhubaneswar
+        output 8*9*7 504
 
-7. Write a program to display the eligibility of a candidate in NCC if his/her height >= 160 and also weight> = 65 , only eligibility possible. (Using Nested if)
+Q. Wapp to enter any string and print the vowels present in the string.
 
-8. Program to check whether a year is leap year or not.
+Q. Wapp to print the factors of an entered number.
 
-9. Write a program to check whether a student is eligible for scholarship or not as per the below rules.
+Q. Wapp that accepts a word from the user and reverses it.
 
-   1. If math marks x = 90 then eligible.
+Q. Wapp to count the factors of an entered number.
 
-   2. If agr>=60 then eligible.
+Q. Wapp to find the factorial of an entered number using for loop.
 
-   3. If science & math both x = 75 then eligible
+Q. Wapp to check if the entered string is pallindrome or not.
 
-10. Write a program to check the largest number among five numbers using else..if ladder.
+        input 'mom'
 
-11. Write a program to check the smallest number among four numbers using else..if ladder.
+        output 'mom when reversed
 
-12. Write a program to check whether number is positive or negative.
+Q. Wapp to check if the entered number is pallindrome or not.
 
-13. Write a program to display remarks of student like outstanding, excellent, very good, good, bad, fail.
+        input '12321'
 
-    1. If marks X = 90 and <= 100 then outstanding.
+        output
 
-    2. If marks>=80 and <90 then excellent.
+        '12321' when reversed
 
-    3. If marks>=70 and <80 then very good.
+Q. Find the sum of even numbers using for loop.
 
-    4. If marks>=60 and 70 then good.
+Q. Wapp to convert the month name to number of days.
 
-    5. If marksand <60 then bad. s = 50
+Q. Find the sum of odd numbers using all possible looping structure.
 
-    6. If marks 50 then fail.
+Q. Wapp to count the no. of digits and alphabets present inside the entered string.
