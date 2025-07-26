@@ -82,4 +82,4 @@ print(ob._weight)
 
 ob2 = Animal("Kitty", 3)
 # print(ob2.self.__age)
-print(ob2.__height)  # This will raise an AttributeError because __height is private
+# print(ob2.__height)  # This will raise an AttributeError because __height is private
