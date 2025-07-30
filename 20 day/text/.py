@@ -79,9 +79,10 @@
 # PIL - python Image Library
 
 from PIL import Image
-# import matplotlib.pylot as py
+
 
 img = Image.open("C:\Users\DIBYARUPA\Pictures\igris-solo-leveling-uhdpaper.com-4K-7.1071.jpg")
 
 print(img)
 print(img.format)
+print(img.rotate)
