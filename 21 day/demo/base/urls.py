@@ -24,6 +24,8 @@ from . import views
 urlpatterns = [
   
     path("",views.hello),
-    path("navbar/",views.navbar)
+    path("navbar/",views.navbar),
+    path("todo/",views.todo),
+    path("add", views.add),
 ]
 
