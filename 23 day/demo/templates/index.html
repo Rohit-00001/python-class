@@ -1,0 +1,19 @@
+{%extends 'main.html'%}
+{%block content%}
+  
+
+<h1>Welcome to the Index Page</h1>
+
+<form action="add" method="post" >
+{% csrf_token %}
+<input type="text" name="num1" placeholder="number 1">
+<input type="text" name="num2" placeholder="number 2">
+<button type="submit">Add</button>
+</form>
+
+
+{%endblock%}
+
+
+    
+
